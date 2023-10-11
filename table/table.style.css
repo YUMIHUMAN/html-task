@@ -1,0 +1,14 @@
+html{
+    background-color: #000000;
+}
+table,th,td,h1,h3,h2{
+    color: #ffffff;
+}
+img,table,th,td{
+    
+    border: solid 1px white;
+    margin-bottom: 10px;
+}
+th,td{
+    padding: 10px;
+}
