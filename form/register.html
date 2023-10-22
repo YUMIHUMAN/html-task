@@ -49,7 +49,7 @@
                 <option value="高度">高度情報工学科</option>
             </select>
             　　学科:<select name="School year">
-                <option value="学年">学年を選択してください</option>
+                <option value="学年" re>学年を選択してください</option>
                 <option value="1">1年</option>
                 <option value="2">2年</option>
                 <option value="3">3年</option>
@@ -58,8 +58,8 @@
 
         <tr>
             <th>お得な情報・クーポン<span class="Required">必須</span></th>
-            <td><label><input type="radio">受け取る</label>
-            <label><input type="radio">受け取らない<label></td>
+            <td><label><input type="radio" name="pon">受け取る</label>
+            <label><input type="radio" name="pon">受け取らない<label></td>
         </tr>
 
         <tr>
@@ -67,6 +67,8 @@
             <td><textarea name="multitiple" cols="50" rows="10" maxlength="200"></textarea></td>
         </tr>
     </table>
+    <button type="reset">入力をクリア</button>
+    <button type="submit">送信</button>
 </form>
 </body>
 </html>
