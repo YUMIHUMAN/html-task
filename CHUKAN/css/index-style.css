@@ -1,0 +1,31 @@
+.top{
+    margin: 0px 5%;
+    display: flex;
+}
+.top .left,.center,.right{
+    width: 90%;
+    text-align: center;
+    padding: 30px;
+    border: 2px solid black;
+}
+.bottom{
+    display: flex;
+    width: 90%;
+    padding: 30px;
+    margin: 2px 5%;
+    border: 2px solid black;
+}
+.gazou{
+    width: 50px;
+    height: 50px;
+    margin: 0 20px;
+}
+.top .left{
+    margin-right: 1%;
+}
+.top .right{
+    margin-left: 1%;
+}
+.ue{
+    width: 400px;
+}

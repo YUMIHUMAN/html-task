@@ -1,0 +1,54 @@
+
+header{
+    height: 324px;
+    color: darkblue;
+    background-image: url(css-img/h06.png);
+    background-size: contain;
+}
+header,footer{
+    background-color: aqua;
+    padding: 0.5rem;
+}
+header{
+    width: 100%;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0%;
+}
+header ul li{
+    width: 20%;
+    text-align: center;
+}
+header ul li a{
+    display: block;
+    padding: 0.5rem;
+    background-color: azure;
+    text-decoration: none;
+    font-weight: bold;
+}
+header ul li + li{
+    border-left: 2px double black;
+}
+.breadcrumbs{
+    list-style: none;
+    display: flex;
+}
+.breadcrumbs li::after{
+    content: ">";
+    padding: 0 0.5rem;
+}
+.breadcrumbs li:last-child::after{
+    content: "";
+}
+.breadcrumbs li:link{
+    color: blue;
+}
+.breadcrumbs li a:visited{
+    color: red;
+}
+.breadcrumbs li a:hover{
+    text-decoration: none;
+}
+

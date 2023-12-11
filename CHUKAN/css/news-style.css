@@ -1,0 +1,9 @@
+.news{
+    text-align: center;
+    padding: 0px 10% 0px 10%;
+}
+.news img{
+    width: 1280px;
+    height: 800px;
+    margin-bottom: 40px ;
+}

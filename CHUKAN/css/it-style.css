@@ -1,0 +1,28 @@
+
+.contain{
+    display: flex;
+}
+.migi{
+    padding: 0.5rem;
+    width: 60.5%;
+}
+.hidari{
+    text-align: center;
+    border-right: solid 2px gray;
+    padding: 0.5rem;
+    width: 20%;
+    /* margin-left: 10%; */
+}
+.title {
+    text-align: center;
+}
+.contain .hidari ul li{
+    margin: 10px;
+    border-bottom: solid 1px;
+}
+a{
+    text-decoration: none;
+}
+
+
+

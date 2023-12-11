@@ -1,0 +1,40 @@
+.migi{
+    padding: 0px 40px  ;
+    text-align: center;
+}
+.st{
+    width: 50%;
+}
+.k{
+    display: flex;
+    flex-wrap: wrap;
+}
+.i{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 10px;
+}
+
+
+.yookoo{
+    width: 600px;
+    width: 370px;
+}
+.taatee{
+    width: 370px;
+    height: 600px;
+}
+.hutu{
+    width: 500px;
+    height: 500px;
+}
+.d img{
+    display: block;
+    margin: 0 auto;
+}
+.d{
+    margin: 50px auto;
+}
+.one{
+    margin-bottom: 100px;
+}
