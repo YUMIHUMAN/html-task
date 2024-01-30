@@ -1,0 +1,25 @@
+/* index */
+.indexbody{
+  background-image: url(img/haikei.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+.indextopdiv{
+    padding: 20px;
+    text-align: center;
+}
+.indextopdiv2{
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+}
+.indextop{
+    border-radius: 30px;
+}
+.indextopp{
+    letter-spacing: 25px;
+    font-size: 75px;
+    color: white;
+}

@@ -12,27 +12,27 @@
         <table>
             <tr>
                 <th>ID<span class="Required">必須</span><span class="specifically">（メールアドレス）</span></th>
-                <td><input type="email" size="30"Required placeholder="xxx@morijyobi.ac.jp"></td>
+                <td><input type="email" size="30"Required placeholder="xxx@morijyobi.ac.jp" name="ID"></td>
             </tr>
 
             <tr>
                 <th>パスワード<span class="Required">必須</span><span class="specifically">（半角英数字8文字以上）</span></th>
-                <td><input type="password"><label><input type="checkbox">パスワードを表示する</label></td>
+                <td><input type="password" name="pass"><label><input type="checkbox" name="ind">パスワードを表示する</label></td>
             </tr>
 
             <tr>
                 <th>氏名<span class="Required">必須</span></th>
-                <td>姓 : <input type="text" placeholder="例: 盛岡"><br>
-                名 : <input type="text" placeholder="例: 太郎"></td>
+                <td>姓 : <input type="text" placeholder="例: 盛岡" name="sur"><br>
+                名 : <input type="text" placeholder="例: 太郎" name="name"></td>
             </tr>
 
         <tr>
             <th>住所</th>
-            <td><input type="text" size="8" value="データは送信する" readonly><br>
-            <input type="text" value="データは送信する" readonly><br>
-            <input type="text" placeholder="岩手県盛岡市中央通３丁目"><br>
-            <input type="text" placeholder="番地"><br>
-            <input type="text" placeholder="建物名"></td>
+            <td><input type="text" size="8" value="データは送信する" name="add" readonly><br>
+            <input type="text" value="データは送信する" name="add" readonly><br>
+            <input type="text" placeholder="岩手県盛岡市中央通３丁目" name="add"><br>
+            <input type="text" placeholder="番地" name="add"><br>
+            <input type="text" placeholder="建物名" name="add"></td>
         </tr>
 
         <tr>
@@ -42,17 +42,17 @@
 
         <tr>
             <th>学年・学科<span class="Required">必須</span></th>
-            <td>学年:<select name="Department">
-                <option value="学科">学科を選択してください</option>
-                <option value="情報">情報システム科</option>
-                <option value="総合">総合システム工学科</option>
-                <option value="高度">高度情報工学科</option>
-            </select>
-            　　学科:<select name="School year">
+            <td>学年:<select name="School year">
                 <option value="学年" re>学年を選択してください</option>
                 <option value="1">1年</option>
                 <option value="2">2年</option>
                 <option value="3">3年</option>
+            </select>
+            学科:<select name="Department">
+                <option value="学科">学科を選択してください</option>
+                <option value="情報">情報システム科</option>
+                <option value="総合">総合システム工学科</option>
+                <option value="高度">高度情報工学科</option>
             </select></td>
         </tr>
 
