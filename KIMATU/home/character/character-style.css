@@ -1,0 +1,120 @@
+.chara-top-left{
+    width: 50px;
+    height: 50px;
+    
+}
+.chara-top-center{
+    width: 120px;
+    height: 50px;
+    margin-left: 430px;
+}
+.chara-top-right{
+    width: 50px;
+    height: 50px;
+    margin-right: 380px;
+}
+#retune{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-image: url(weapon/ましろ.png);
+    opacity: 1;
+}
+#retune a{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+}
+.mokuji{
+    width: 280px;
+    height: 140px;
+    padding: 10px;
+    margin: 30px auto auto auto;
+    display: flex;
+}
+.mokuji-p{
+    display: block;
+    font-size: 20px;
+    width: 130px;
+    height: 50px;
+}
+a{
+    text-decoration: none;
+}
+.atama{
+    font-size: 50px;
+}
+.chara-show{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid cornsilk;
+}
+.chara-image{
+    width: 420px;
+    height: 420px;
+}
+.chara-name{
+    width: 560px;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+}
+.chara-skill{
+    display: flex;
+}
+.weapon{
+    width: 150px;
+}
+.weapon-list{
+    /* display: block;
+    margin-left:20px; */
+    font-size: 30px;
+}
+.weapon-image{
+    width: 100px;
+    height: 100px;
+   
+    margin: 0 20px;
+}
+.skill-list{
+    font-size: 23px;
+    line-height: 40px;
+    margin: 0;
+}
+.chara-profile{
+    line-height: 44px;
+    font-size: 22px;
+}
+.test{
+    width: 400px;
+}
+.skill-sub li p{
+    font-size: 20px;
+    display: block;
+    margin: 20px auto;
+}
+.sense-list{
+    border: 1.5px solid;
+    border-collapse: collapse;
+}
+.sense-list thead th{
+    
+    padding: 10px;
+    border: 1.5px solid;
+    border-collapse: collapse;
+}
+.sense-list tbody th,.sense-list tbody td{
+padding: 10px;
+border: 1.5px solid;
+border-collapse: collapse;
+}
+.sense-list-table{
+    margin-top: 40px;
+    list-style: none;
+}
+
