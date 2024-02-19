@@ -117,4 +117,6 @@ border-collapse: collapse;
     margin-top: 40px;
     list-style: none;
 }
-
+a:hover{
+    color: rgb(222, 191, 51);
+}

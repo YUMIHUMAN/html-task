@@ -26,3 +26,6 @@ html,body{
 a{
     text-decoration: none;
 }
+.terebi:hover{
+    color: rgb(221, 210, 172);
+}
